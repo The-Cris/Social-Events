@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Events</title>
+    <meta name="description" content="Esta es una pagina hecha con el fin de realizar eventos sociales">
+    <link rel="shortcut icon" href="./assets/images/icon.jfif" type="image/jfif">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <ul class="header-top-list">
+                    <li class="header-top-item">
+                        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                        <p class="item-title">Contactanos :</p>
+                        <a href="tel:01234567895" class="item-link">301 224 3429</a>
+                    </li>
+                    <li class="header-top-item">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                        <p class="item-title">Organiza tu evento :</p>
+                        <p class="item-text">Lunes - Viernes, 08 am - 09 pm</p>
+                    </li>
+                    <li>
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100054800844300" class="social-link" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/petrogustavo" class="social-link" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="social-link" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom" data-header>
+            <div class="container">
+                <a href="#" class="logo">
+                    Social Events
+                    <span class="span">Eventos para ti</span>
+                </a>
+                <nav class="navbar container" data-navbar>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#services" class="navbar-link" data-nav-link>Servicios</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#pricing" class="navbar-link" data-nav-link>Precio</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#appointment" class="navbar-link" data-nav-link>Registro</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link" data-nav-link>Contactos</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+                <a href="/registro.html" class="btn has-before">
+                    <span class="span">Registro</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+            <!-- 
+        -  Parte protagonista o principal #HERO
+      -->
+
+            <section class="section hero has-before has-bg-image" id="home" aria-label="home" style="background-image: url('./assets/images/hero-banner.png')">
+
+
+<!-- Este es el carrusel -->
+<div id="carouselExampleIndicators" class="carousel slide" style="width: 50%; float: right;" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/images/gallery-1.jpeg" class="d-block w-100" alt="Imagen 1" style="height: 300px; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/gallery-2.jpeg" class="d-block w-100" alt="Imagen 2" style="height: 300px; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/gallery-4.jpeg" class="d-block w-100" alt="Imagen 3" style="height: 300px; object-fit: cover;">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+
+
+                <div class="container">
+
+                    <h1 class="h1 hero-title">EVENTOS</h1>
+
+                    <p class="hero-text">
+                        Desarrolla con nosotros tu proximo evento social.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                        <span class="span">Echale un vistazo</span>
+
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- 
+        - #Seccion de Servicios
+      -->
+
+            <section class="section service" id="services" aria-label="services">
+                <div class="container">
+
+                    <h2 class="h2 section-title text-center">Servicios</h2>
+
+                    <p class="section-text text-center">
+                        A continuacion ofrecemos diferentes tipos de servicios para hacer de tu fiesta la mejor.
+                    </p>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Fiestas para menores</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Organizamos reuniones o fiestas dirijidos para un publico menor, contamos con las debidas precausiones ademas de seguridad para evitar alguna mala experiencia en una linda noche para el publico menor,  contactate con nosotros para tu planificacion del evento.
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Fiestas</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Disfruta de un gran espacio con musica y bebidas para un publico mayor, deseamos que lo pases bien y en este lugar lo podras hacer, contactate con nosotros para tu planificacion del evento.
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Conciertos musica urbana</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    No tengas miedo y atrevete a participar en tu primer evento musical, tu pones el talento nosotros el resto.
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Conciertos de rock y sus ramificaciones.</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    ¿siempre haz soñado con ser una extrella del genero?
+                                    con nosotros lo puedes lograr, aqui lograras planear con tu banda o solo un espectaculo que recordaras toda la vida,  contactate con nosotros para tu planificacion del evento.
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Apoyo Musical</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Bandas invitadas, inclusion de musica cultural, interpretes de musica popular incluyendo tambien papayeras  
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class=""></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">eventos sencillos</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    ¿Deseas algo mas discreto para iniciar? no te preocupes nosotros te ayudamos a publicitar tu arte.
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #Seccion de planes
+      -->
+
+            <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing" style="background-image: url('./assets/images/pricing-bg.png')">
+                <div class="container">
+
+                    <h2 class="h2 section-title text-center">Planes a precios increibles</h2>
+
+                    <p class="section-text text-center">
+                       Escoge los planes que mas te gusten y siente el placer de poder armar la fiesta a tu gusto  
+                    </p>
+
+                    <div class="pricing-tab-container">
+
+                        <ul class="tab-filter">
+
+                            <li>
+                                <button class="filter-btn active" data-filter-btn="all">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Todos los planes</p>
+                </button>
+                            </li>
+
+                            <li>
+                                <button class="filter-btn" data-filter-btn="beauty-spa">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Dj</p>
+                </button>
+                            </li>
+
+                            <li>
+                                <button class="filter-btn" data-filter-btn="body-treatments">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Interpretes</p>
+                </button>
+                            </li>
+
+                            <li>
+                                <button class="filter-btn" data-filter-btn="face-washing">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Bandas</p>
+                </button>
+                            </li>
+
+                            <li>
+                                <button class="filter-btn" data-filter-btn="meditations">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Alimentacion</p>
+                </button>
+                            </li>
+
+                            <li>
+                                <button class="filter-btn" data-filter-btn="shaving">
+                  <div class="btn-icon">
+                    <i class="" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Entretenimiento</p>
+                </button>
+                            </li>
+
+                        </ul>
+
+                        <ul class="grid-list">
+
+                            <li data-filter="shaving">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Comediante</h3>
+
+                                        <p class="card-text">Raro pero gracioso 30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="89.000">$89.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="shaving">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Payasin</h3>
+
+                                        <p class="card-text">Gracioso y con nariz roja 30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="45.000">$45.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="face-washing">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Grupo de rock</h3>
+
+                                        <p class="card-text">Musica rockera 30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="150.000">$150.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="body-treatments">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-4.jpg" width="90" height="90" alt="Body Massage" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Cantantes</h3>
+
+                                        <p class="card-text">canciones crossover 30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="100.000">$100.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="beauty-spa">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-5.jpg" width="90" height="90" alt="Beauty & Spa" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Dj crossover</h3>
+
+                                        <p class="card-text">Todo tipo de musica 8 horas por evento</p>
+                                    </div>
+
+                                    <data class="card-price" value="200.000">$200.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="face-washing">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-6.jpg" width="90" height="90" alt="Facial & Face Wash" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Banda de pop</h3>
+
+                                        <p class="card-text">Banda popera 30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="130.000">$130.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="body-treatments">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-7.jpg" width="90" height="90" alt="Backbone Massage" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Papayera</h3>
+
+                                        <p class="card-text">Musica regional y sabrosura caribeña  30-40 minutos</p>
+                                    </div>
+
+                                    <data class="card-price" value="150.00">$150.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="meditations">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-8.jpg" width="90" height="90" alt="Meditation & Massage" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Comida rapida</h3>
+
+                                        <p class="card-text">Quesudos pero no de los mellos 200 platos por evento</p>
+                                    </div>
+
+                                    <data class="card-price" value="140.000">$140.000 pesos</data>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #Lugares e imagenes
+      -->
+
+            <section class="section gallery" id="gallery" aria-label="photo gallery">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <div>
+                            <h2 class="h2 section-title">Ultimas novedades</h2>
+
+                            <p class="section-text">
+                                Aquí podras ver los mas lindos lugares para realizar tu evento deseo 
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn has-before">
+                            <span class="span">Explora nuestra galeria completa</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/gallery-1.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Lugares</h3>
+
+                                    <p class="card-text">Fincas y salones</p>
+
+                                    <a onclick="openModal('./assets/images/gallery-1.jpeg')" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/gallery-2.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting" class="img-cover" >
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Lugares</h3>
+
+                                    <p class="card-text">Fincas y salones</p>
+
+                                    <a onclick="openModal('./assets/images/gallery-2.jpeg')" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/gallery-3.jpeg" width="422" height="550" loading="lazy" alt= "Hair Cutting" class="img-cover" >
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Lugares</h3>
+
+                                    <p class="card-text">Fincas y salones</p>
+
+                                   <!-- Este es tu botón que abrirá el modal -->
+<button id="myBtn">Abrir Modal</button>
+
+<!-- Este es el modal -->
+<div id="myModal" class="modal">
+
+  <!-- Este es el contenido del modal -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>¡Hola! Este es un modal.</p>
+  </div>
+
+</div>
+
+<!-- Añade esto al final de tu cuerpo -->
+<script>
+// Obtiene el modal
+var modal = document.getElementById("myModal");
+
+// Obtiene el botón que abre el modal
+var btn = document.getElementById("myBtn");
+
+// Obtiene el elemento <span> que cierra el modal
+var span = document.getElementsByClassName("close")[0];
+
+// Cuando el usuario hace clic en el botón, abre el modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Cuando el usuario hace clic en <span> (x), cierra el modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Cuando el usuario hace clic en cualquier lugar fuera del modal, lo cierra
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/gallery-4.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting" class="img-cover" >
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Lugares</h3>
+
+                                    <p class="card-text">Fincas y salones</p>
+
+                                    <a onclick="openModal('modal')" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div> 
+               
+            </section>
+
+
+
+
+
+            <!-- 
+        - #Formulario 
+      -->
+
+            <section class="section appoin" id="appointment" aria-label="appointment">
+                <div class="container">
+
+                    <div class="appoin-card">
+
+                        <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+                            <img src="./assets/images/appoin-banner-1.jpg" width="250" height="774" loading="lazy" alt="" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <h2 class="h2 section-title">Trabaja con nosotros</h2>
+
+                            <p class="section-text">
+                                Ayudanos a hacer la fiesta de ensueño realidad de mucha gente
+                            </p>
+
+                            <form action="" class="appoin-form">
+
+                                <div class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Tu nombre completo" required class="input-field">
+
+                                    <input type="email" name="email_address" placeholder="correo" required class="input-field">
+                                </div>
+
+                                <div class="input-wrapper">
+                                    <input type="text" name="phone" placeholder="Numero celular" required class="input-field">
+
+                                    <select name="categoria" class="input-field">
+
+                                        <option value="Select category">selecciona una categoria</option>
+                                        <option value="Beauty & spa">DJ</option>
+                                        <option value="Body massage">INTERPRETES</option>
+                                        <option value="Shaving & Facial">BANDAS</option>
+                                        <option value="Hair Color">ALIMENTACION</option>
+                                        <option value="Hair Color">ENTRETENIMIENTO</option>
+                                        <option value="Hair Color">LUGAR O SALON</option>
+
+                  </select>
+                                </div>
+
+                                <input type="date" name="date" required class="input-field date">
+
+                                <textarea name="message" placeholder="Escribe sobre ti y la experiencia que tengas" required class="input-field"></textarea>
+
+                                <button type="submit" class="form-btn">
+                  <span class="span">Registrate ya</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+                            </form>
+
+                        </div>
+
+                        <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+                            <img src="./assets/images/appoin-banner-2.jpg" width="250" height="774" loading="lazy" alt="" class="img-cover">
+                        </figure>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #Pie de pagina
+  -->
+
+    <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+            Social Events
+            <span class="span">Fiestas por doquier</span>
+          </a>
+
+                    <form action="" class="input-wrapper">
+
+                        <input type="email" name="email_address" placeholder="Ingresa tu correo" required class="email-field">
+
+                        <button type="submit" class="btn has-before">
+              <span class="span">Suscribete ya</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+                    </form>
+
+                </div>
+
+                <div class="footer-link-box">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Links</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Nuestros servicios</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Conoce nuestro equipo</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Nuestro portafolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">¿Necesitas ayuda?</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Noticias & Blog</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Servicios</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Fiestas</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Bodas</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Conciertos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Interpretes</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Orquetas</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Las buenas nuevas</p>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 70; --height:75;">
+                                    <img src="./assets/images/footer-blog-1.jpg" width="70" height="75" loading="lazy" alt="The beginners guide to Henna Brows in Brisbane" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3>
+                                        <a href="#" class="card-title">¿Te interesa trabajar con nosotros?</a>
+                                    </h3>
+
+                                    <div class="card-date">
+                                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                        <time datetime="2022-08-25">19 septiembre 2023</time>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 70; --height: 75;">
+                                    <img src="./assets/images/footer-blog-2.jpg" width="70" height="75" loading="lazy" alt="How do I get rid of unwanted hair on my face?" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3>
+                                        <a href="#" class="card-title">¿Como puedo empezar mi carrera artistica?</a>
+                                    </h3>
+
+                                    <div class="card-date">
+                                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                        <time datetime="2022-08-25">27 mayo 2005</time>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Contactanos</p>
+                        </li>
+
+                        <li class="footer-list-item">
+                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                            <address class="contact-link">
+                San cristobal vereda el papayo cerca de la casa de juan 
+              </address>
+                        </li>
+
+                        <li class="footer-list-item">
+                            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                            <a href="tel:+0123456789" class="contact-link">5741902</a>
+                        </li>
+
+                        <li class="footer-list-item">
+                            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                            <span class="contact-link">Lunes - Viernes, 08 am - 09 pm</span>
+                        </li>
+
+                        <li class="footer-list-item">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                            <a href="mailto:support@gmail.com" class="contact-link">ayudanosenada@gmail.com</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2023
+                    <a href="#" class="copyright-link"></a>.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - Carrusel
+  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+</html>
